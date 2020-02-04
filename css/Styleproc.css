@@ -1,3 +1,4 @@
+@import url(bootstrap.min.css);
 .my-flex-block {
   height: 120px;
   background-color: darkred;
