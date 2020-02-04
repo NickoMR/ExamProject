@@ -1,0 +1,26 @@
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.my-flex-block{
+  height: 120px;
+  background-color: darkred;
+  margin: 10px;
+  width: 300px;
+  @include max-screen(650px){
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.my-flex-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @include max-screen(650px){
+    flex-direction: column;
+    padding: 0 10px;
+  }
+}
