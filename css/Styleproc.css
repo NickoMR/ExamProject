@@ -176,14 +176,14 @@ header {
   background-color: #ffffff;
   text-align: center; }
 
-.skills .container h2 {
+.skills .container .row h2 {
   font-size: 46px;
   color: #4d4d4d;
   font-family: 'Asap', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 60px; }
-  .skills .container h2:before {
+  .skills .container .row h2:before {
     content: "";
     display: block;
     width: 60px;
@@ -195,7 +195,7 @@ header {
     bottom: 10px; }
 
 .portfolio {
-  padding-top: 220px;
+  padding-top: 150px;
   padding-bottom: 125px;
   background-color: #f6f6f6;
   text-align: center; }
@@ -224,5 +224,57 @@ header {
     content: ">";
     display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.portfolio .container a {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .portfolio .container a .loadmore {
+    width: 190px;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 13px; }
+    .portfolio .container a .loadmore:hover {
+      content: ">";
+      display: block;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.testimonials {
+  padding-top: 150px;
+  padding-bottom: 125px;
+  background-color: #ffffff;
+  text-align: center; }
+
+.testimonials .container h2 {
+  font-size: 46px;
+  color: #4d4d4d;
+  font-family: 'Asap', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 60px; }
+  .testimonials .container h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #4d4d4d;
+    position: relative;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 10px; }
+
+.containerjs {
+  max-width: 955px;
+  margin: auto; }
+
+.containerjs .carousel-indicators .active {
+  border-radius: 0;
+  border: solid 1px #000000; }
+.containerjs .carousel-indicators li {
+  border-radius: 0;
+  border: solid 1px #000000; }
 
 /*# sourceMappingURL=Styleproc.css.map */
