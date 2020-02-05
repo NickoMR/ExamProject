@@ -1,21 +1,45 @@
 @import url(bootstrap.min.css);
-.my-flex-block {
-  height: 120px;
-  background-color: darkred;
-  margin: 10px;
-  width: 300px; }
-  @media screen and (max-width: 650px) {
-    .my-flex-block {
-      width: 100%;
-      margin: 10px 0; } }
+@import url(bootstrap-theme.min.css);
+@import "https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap";
+.navbar-default {
+  background-image: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  border-color: transparent;
+  border: none; }
 
-.my-flex-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  @media screen and (max-width: 650px) {
-    .my-flex-container {
-      flex-direction: column;
-      padding: 0 10px; } }
+.background {
+  background-image: url("../images/BG_cut.png");
+  background-size: contain;
+  background-repeat: repeat-x; }
+
+header {
+  margin-top: 16px;
+  margin-bottom: 400px; }
+
+.navbar-default .navbar-nav li a {
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: 'Asap', sans-serif; }
+
+.navbar-default .navbar-nav li a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  bottom: -5px; }
+
+.navbar-default .navbar-nav li a:hover:after {
+  background-color: #4d4d4d; }
+
+.navbar-brand {
+  margin-bottom: 20px; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none; }
 
 /*# sourceMappingURL=Styleproc.css.map */
