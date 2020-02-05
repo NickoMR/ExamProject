@@ -387,15 +387,50 @@ header{
 }
 .containerjs{
   max-width: 955px;
-  margin: auto;
 }
 .containerjs{
+  .js{
+    padding: 80px 120px 110px 75px;
+    border: solid 1px #4d4d4d;
+    .row{
+      .col-lg-4{
+        padding: 0;
+      }
+      .col-lg-8 {
+        text-align: left;
+        padding: 0;
+        p{
+          font-size: 16px;
+          color: #4d4d4d;
+          font-family: 'Asap', sans-serif;
+          opacity: 100%;
+        }
+        h3{
+          font-family: 'Asap', sans-serif;
+          font-size: 30px;
+          color: #212121;
+          font-weight: 600;
+          span{
+            display: block;
+            font-size: 12px;
+            color: #212121;
+            font-family: 'Asap', sans-serif;
+            text-transform: initial ;
+          }
+        }
+      }
+    }
+  }
   .carousel-indicators .active{
     border-radius: 0;
     border: solid 1px #000000;
+    background-color: #000000;
   }
   .carousel-indicators li{
     border-radius: 0;
     border: solid 1px #000000;
   }
+}
+.carousel-indicators{
+  bottom: -65px;
 }

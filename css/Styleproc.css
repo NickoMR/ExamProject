@@ -267,14 +267,41 @@ header {
     bottom: 10px; }
 
 .containerjs {
-  max-width: 955px;
-  margin: auto; }
+  max-width: 955px; }
 
+.containerjs .js {
+  padding: 80px 120px 110px 75px;
+  border: solid 1px #4d4d4d; }
+  .containerjs .js .row .col-lg-4 {
+    padding: 0; }
+  .containerjs .js .row .col-lg-8 {
+    text-align: left;
+    padding: 0; }
+    .containerjs .js .row .col-lg-8 p {
+      font-size: 16px;
+      color: #4d4d4d;
+      font-family: 'Asap', sans-serif;
+      opacity: 100%; }
+    .containerjs .js .row .col-lg-8 h3 {
+      font-family: 'Asap', sans-serif;
+      font-size: 30px;
+      color: #212121;
+      font-weight: 600; }
+      .containerjs .js .row .col-lg-8 h3 span {
+        display: block;
+        font-size: 12px;
+        color: #212121;
+        font-family: 'Asap', sans-serif;
+        text-transform: initial; }
 .containerjs .carousel-indicators .active {
   border-radius: 0;
-  border: solid 1px #000000; }
+  border: solid 1px #000000;
+  background-color: #000000; }
 .containerjs .carousel-indicators li {
   border-radius: 0;
   border: solid 1px #000000; }
+
+.carousel-indicators {
+  bottom: -65px; }
 
 /*# sourceMappingURL=Styleproc.css.map */
