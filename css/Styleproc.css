@@ -69,7 +69,7 @@ header {
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none; }
-  .background .container .row .col-lg-6 a .button2 {
+  .background .container .row .col-lg-6 a .button {
     width: 160px;
     height: 50px;
     text-align: center;
@@ -79,15 +79,9 @@ header {
     padding: 13px;
     margin-top: 10px;
     border: solid 1px #4d4d4d; }
-  .background .container .row .col-lg-6 a .button {
-    width: 160px;
-    height: 50px;
-    text-align: center;
-    background-color: #ffffff;
-    margin-right: 20px;
-    display: inline-block;
-    padding: 13px;
-    margin-top: 10px; }
+    .background .container .row .col-lg-6 a .button:hover {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .row .col-lg-6 {
   margin-top: 15px;
@@ -143,6 +137,9 @@ header {
     text-align: center;
     padding: 13px;
     margin-bottom: 15px; }
+    .knowmore .container .col-lg-5 a .button:hover {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .services {
   padding-top: 140px;
@@ -427,6 +424,10 @@ header {
     margin-left: -30px;
     bottom: 10px; }
 
+@media screen and (max-width: 1200px) {
+  .testimonials .container .containerjs .carousel .row {
+    padding-left: 15px;
+    padding-right: 15px; } }
 @media screen and (max-width: 768px) {
   .results .container .col-lg-3 {
     max-width: 50%;
@@ -439,7 +440,7 @@ header {
     padding-top: 50px;
     padding-bottom: 50px; }
     .testimonials .container .js {
-      padding: 20px; }
+      padding: 20px 0 20px 0; }
     .testimonials .container h2 {
       font-size: 40px; }
 
