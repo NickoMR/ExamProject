@@ -150,6 +150,8 @@ header {
   background-color: #f6f6f6;
   text-align: center; }
 
+.services .container .col-lg-4 {
+  height: 200px; }
 .services .container h2 {
   font-size: 46px;
   color: #4d4d4d;
@@ -229,6 +231,8 @@ header {
     display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
+.portfolio .container .col-lg-2 {
+  padding: 0; }
 .portfolio .container a {
   color: #4d4d4d;
   font-size: 16px;
@@ -237,7 +241,7 @@ header {
   text-transform: uppercase;
   text-decoration: none; }
   .portfolio .container a .loadmore {
-    width: 190px;
+    width: 200px;
     height: 50px;
     background-color: #ffffff;
     padding: 13px; }
@@ -274,7 +278,7 @@ header {
   max-width: 955px; }
 
 .containerjs .js {
-  padding: 80px 120px 110px 75px;
+  padding: 80px 75px 110px 75px;
   border: solid 1px #4d4d4d; }
   .containerjs .js .row .col-lg-4 {
     padding: 0; }
@@ -362,7 +366,8 @@ header {
     margin-right: 9px;
     display: inline-block;
     color: #4d4d4d;
-    font-size: 12px; }
+    font-size: 12px;
+    margin-bottom: 15px; }
     .contactBG .container .row .col-lg-3 a .socblock i {
       padding-top: 7px; }
     .contactBG .container .row .col-lg-3 a .socblock:hover {
@@ -389,6 +394,10 @@ header {
     text-transform: uppercase;
     opacity: 100%;
     margin: 0; }
+    .contactBG .container .row .col-lg-2 button p i {
+      font-size: 16px;
+      color: #4d4d4d;
+      padding-top: 1px; }
 .contactBG .container .row .col-lg-8 textarea {
   width: 100%;
   height: 205px;
@@ -417,5 +426,38 @@ header {
     left: 50%;
     margin-left: -30px;
     bottom: 10px; }
+
+@media screen and (max-width: 768px) {
+  .results .container .col-lg-3 {
+    max-width: 50%;
+    text-align: center;
+    margin-bottom: 20px; }
+  .results .container h2 {
+    font-size: 40px; }
+
+  .testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .testimonials .container .js {
+      padding: 20px; }
+    .testimonials .container h2 {
+      font-size: 40px; }
+
+  .portfolio {
+    padding-top: 0;
+    padding-bottom: 20px; }
+    .portfolio .container h2 {
+      font-size: 40px; }
+    .portfolio .container .col-lg-4 img {
+      max-width: 75%; }
+
+  .services .container h2 {
+    font-size: 40px; }
+  .services .container .col-lg-4 {
+    max-width: 50%; }
+
+  .background .container h1 {
+    font-size: 50px;
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=Styleproc.css.map */

@@ -220,6 +220,9 @@ header{
 }
 .services{
   .container{
+    .col-lg-4{
+      height: 200px;
+    }
     h2 {
       font-size: 46px;
       color: #4d4d4d;
@@ -334,6 +337,9 @@ header{
 }
 .portfolio{
   .container{
+    .col-lg-2{
+      padding: 0;
+    }
     a {
       color: #4d4d4d;
       font-size: 16px;
@@ -342,7 +348,7 @@ header{
       text-transform: uppercase;
       text-decoration: none;
       .loadmore {
-        width: 190px;
+        width: 200px;
         height: 50px;
         background-color: #ffffff;
         padding: 13px;
@@ -393,7 +399,7 @@ header{
 }
 .containerjs{
   .js{
-    padding: 80px 120px 110px 75px;
+    padding: 80px 75px 110px 75px;
     border: solid 1px #4d4d4d;
     .row{
       .col-lg-4{
@@ -523,6 +529,7 @@ header{
             display: inline-block;
             color: #4d4d4d;
             font-size: 12px;
+            margin-bottom: 15px;
             i{
               padding-top: 7px;
             }
@@ -559,6 +566,11 @@ header{
             text-transform: uppercase;
             opacity: 100%;
             margin: 0;
+            i{
+              font-size: 16px;
+              color: #4d4d4d;
+              padding-top: 1px;
+            }
           }
         }
       }
@@ -601,3 +613,70 @@ header{
     }
   }
 }
+
+
+//ADAPTIVE
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+@include max-screen(768px){
+  .results{
+    .container{
+      .col-lg-3{
+        max-width: 50%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      h2{
+        font-size: 40px;
+      }
+    }
+  }
+  .testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .container{
+      .js{
+        padding: 20px;
+      }
+      h2{
+        font-size: 40px;
+      }
+    }
+  }
+  .portfolio{
+    padding-top: 0;
+    padding-bottom: 20px;
+    .container{
+      h2{
+        font-size: 40px;
+      }
+      .col-lg-4{
+        img {
+          max-width: 75%;
+        }
+      }
+    }
+  }
+  .services{
+    .container{
+      h2{
+        font-size: 40px;
+      }
+      .col-lg-4{
+        max-width: 50%;
+      }
+    }
+  }
+  .background{
+    .container{
+      h1{
+        font-size: 50px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
