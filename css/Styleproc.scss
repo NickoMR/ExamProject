@@ -1,7 +1,10 @@
 @import "bootstrap.min.css";
 @import "bootstrap-theme.min.css";
+@import "../fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css";
+@import "https://use.fontawesome.com/releases/v5.0.7/css/all.css";
+@import "https://kit.fontawesome.com/22e5461dc0.js";
 @import "https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap";
-
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap";
 
 .navbar-default{
   background-image:none;
@@ -322,7 +325,7 @@ header{
     img{
       margin-bottom: 30px;
       &:hover{
-        content: ">";
+        content: "";
         display: block;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
       }
@@ -344,7 +347,7 @@ header{
         background-color: #ffffff;
         padding: 13px;
         &:hover{
-          content: ">";
+          content: "";
           display: block;
           box-shadow: 0 0 10px rgba(0,0,0,0.5);
         }
@@ -440,8 +443,161 @@ header{
 
 
 .results{
-  padding-top: 52px;
+  padding-top: 50px;
   padding-bottom: 65px;
   background-color: #f6f6f6;
   text-align: center;
+}
+.results{
+  .container {
+    .row{
+      .col-lg-3{
+        height: 185px;
+        .block4{
+          padding-top: 15px;
+        }
+        .block3{
+          padding-top: 24px;
+        }
+        .block2{
+          padding-top: 20px;
+        }
+      }
+    }
+    p {
+      font-size: 22px;
+      color: #212121;
+      font-family: 'Asap', sans-serif;
+      opacity: 100%;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      font-size: 30px;
+      color: #212121;
+      font-family: 'Asap', sans-serif;
+      font-weight: 700;
+    }
+  }
+}
+.white{
+  .col-lg-12{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #ffffff;
+  }
+}
+
+
+//CONTACT
+
+
+.contactBG{
+  background-image: url("../images/contactBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 160px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.contactBG{
+  .container{
+    .row{
+      .right{
+        p{
+          font-size: 16px;
+          color: #ffffff;
+          font-family: 'Montserrat', sans-serif;
+          opacity: 100%;
+          font-weight: 600;
+        }
+      }
+      .col-lg-3{
+        padding: 0;
+        a {
+          .socblock {
+            width: 25px;
+            height: 25px;
+            background-color: #ffffff;
+            margin-right: 9px;
+            display: inline-block;
+            color: #4d4d4d;
+            font-size: 12px;
+            i{
+              padding-top: 7px;
+            }
+            &:hover{
+              background-color: #0985bf;
+              color: white;
+            }
+          }
+        }
+      }
+      .col-lg-12{
+       .stripe{
+         height: 1px;
+         width: 100%;
+         background-color: #ffffff;
+         margin-bottom: 36px;
+       }
+      }
+      .col-lg-2{
+        button{
+          width: 122px;
+          height: 50px;
+          background-color: #ffffff;
+          border: none;
+          margin-bottom: 50px;
+          &:hover{
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+          }
+          p{
+            font-size: 16px;
+            color: #4d4d4d;
+            font-family: 'Asap', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            opacity: 100%;
+            margin: 0;
+          }
+        }
+      }
+      .col-lg-8{
+        textarea{
+          width: 100%;
+          height: 205px;
+          resize: none;
+          margin-bottom: 30px;
+        }
+      }
+      .col-lg-4{
+        input{
+          width: 100%;
+          height: 58px;
+          background-color: #ffffff;
+          box-sizing: border-box;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    h2 {
+      font-size: 46px;
+      color: #ffffff;
+      font-family: 'Asap', sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 60px;
+      &:before {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: #ffffff;
+        position: relative;
+        left: 50%;
+        margin-left: -30px;
+        bottom: 10px;
+      }
+    }
+  }
 }
