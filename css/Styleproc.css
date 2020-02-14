@@ -87,7 +87,113 @@ header {
   margin-top: 15px;
   margin-bottom: 20px; }
 
+.knowmore {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #ffffff; }
+
+.knowmore .container .row .col-lg-5 h2 {
+  font-size: 46px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 800;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  margin-top: 90px; }
+  .knowmore .container .row .col-lg-5 h2:before {
+    content: "";
+    display: block;
+    height: 4px;
+    max-width: 60px;
+    background-color: #4d4d4d;
+    position: relative;
+    bottom: 12px; }
+.knowmore .container .row .col-lg-5 p {
+  font-size: 16px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 600;
+  color: #4d4d4d;
+  opacity: 100%;
+  margin-bottom: 40px; }
+.knowmore .container .row .col-lg-5 a {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .knowmore .container .row .col-lg-5 a .CVbutton {
+    width: 245px;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    display: inline-block;
+    padding: 13px;
+    border: solid 1px #4d4d4d; }
+    .knowmore .container .row .col-lg-5 a .CVbutton:hover {
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f6f6f6;
+  text-align: center; }
+  .services .container .row {
+    margin-top: 35px;
+    margin-bottom: 35px; }
+    .services .container .row .col-lg-12 h2 {
+      font-size: 46px;
+      font-family: 'Asap', sans-serif;
+      font-weight: 800;
+      color: #4d4d4d;
+      text-transform: uppercase; }
+      .services .container .row .col-lg-12 h2:before {
+        content: "";
+        display: block;
+        height: 4px;
+        max-width: 60px;
+        background-color: #4d4d4d;
+        position: relative;
+        left: 50%;
+        bottom: 12px;
+        margin-left: -30px; }
+    .services .container .row .col-lg-4 p {
+      font-size: 24px;
+      opacity: 100%;
+      color: #4d4d4d;
+      font-weight: 600;
+      margin-top: 15px; }
+
+.skills {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #ffffff;
+  text-align: center; }
+  .skills .container .row .col-lg-12 h2 {
+    font-size: 46px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 800;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+    .skills .container .row .col-lg-12 h2:before {
+      content: "";
+      display: block;
+      height: 4px;
+      max-width: 60px;
+      background-color: #4d4d4d;
+      position: relative;
+      left: 50%;
+      bottom: 12px;
+      margin-left: -30px; }
+
 @media screen and (max-width: 1200px) {
+  .skills .container .row .col-lg-12 img {
+    max-width: 80%; }
+
+  .knowmore .container .row img {
+    margin-top: 25px; }
+
   .background .container .row h1 {
     font-size: 70px; }
   .background .container .row p {
@@ -95,11 +201,32 @@ header {
   .background .container .row img {
     max-width: 95%; } }
 @media screen and (max-width: 992px) {
+  .services {
+    padding-bottom: 20px;
+    padding-top: 20px; }
+
+  .knowmore {
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    .knowmore .container .row .col-md-12 h2 {
+      margin-top: 20px; }
+
   .background .container .row h1 {
     font-size: 50px; }
   .background .container .row p {
     font-size: 18px; } }
 @media screen and (max-width: 768px) {
+  .skills {
+    padding: 0; }
+
+  .services .container .row .col-lg-12 h2 {
+    font-size: 25px; }
+
+  .knowmore .container .row .col-md-12 h2 {
+    font-size: 25px; }
+  .knowmore .container .row .col-md-12 p {
+    font-size: 14px; }
+
   .background .container .row h1 {
     font-size: 35px; }
   .background .container .row p {
@@ -108,5 +235,8 @@ header {
     font-size: 14px; }
     .background .container .row .col-sm-8 a .button {
       width: 120px; } }
+@media screen and (max-width: 414px) {
+  .background .container .row h1 {
+    margin-top: 30px; } }
 
 /*# sourceMappingURL=Styleproc.css.map */
